@@ -4,8 +4,8 @@ def maxIncreaseKeepingSkyline(self, grid):
 	:rtype: int
 	"""
 	num=0
-	for i in range(1,4):
-		for j in range(1,4):
+	for i in range(0,len(grid)):
+		for j in range(0,len(grid)):
 			num+=min(max(grid[i]),max([x[j] for x in grid]))-grid[i][j]
 	return num
 

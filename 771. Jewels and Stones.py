@@ -29,4 +29,5 @@ Notes
             if s in J:
                res += 1
         ruturn res
+	this is called list resolution
 '''
