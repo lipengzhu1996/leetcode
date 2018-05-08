@@ -25,3 +25,4 @@ return bin(x^y).count('1')
 '''
 Notes
 1. usage of ^ which means XOR in python
+What does come to your mind first when you see this sentence "corresponding bits are different"? Yes, XOR! Also, do not forget there is a decent function Java provided: str.count('c')
