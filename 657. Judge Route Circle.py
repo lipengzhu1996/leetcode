@@ -14,3 +14,8 @@ Best Solutions
 return moves.count('L') == moves.count('R') and moves.count('U') == moves.count('D')
 '''
 
+'''
+Notes
+1.
+fool
+'''
