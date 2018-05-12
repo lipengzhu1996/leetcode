@@ -40,36 +40,6 @@ class Solution(object):
 
         return L
 		
-'''
-
-    def numComponents(self, head, G):
-        """
-        :type head: ListNode
-        :type G: List[int]
-        :rtype: int
-        """
-        pos = []
-        num = 1
-        
-        for i in G:
-            p = head
-            n=0
-            while p is not None:
-                if i == p.val:
-                    pos.append(n)
-                    break
-                p= p.next
-                n += 1
-                
-        pos.sort()
-
-        for i in range(1,len(pos)):
-            if not pos[i] - pos[i-1] == 1:
-                num += 1
-        
-        return num
-'''
-
 
 '''
 Best Solutions
